@@ -10,7 +10,7 @@ function Need(){
     }
     return(
         <div>
-            const cardCreated=Content.map(createCard);
+          {Content.map(createCard)}
         </div>
     );
 }
