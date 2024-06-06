@@ -26,48 +26,83 @@ const Content = [
   },
   {
     id:6,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Skiing/Snowboarding",
+    image: './Pictures/Skiing.jpg'
   },
   {
     id:7,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Rafting",
+    image: './Pictures/Rafting.png'
   },
   {
     id:8,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"ATV/Snow Mobiling",
+    image: './Pictures/Atv.png'
   },
   {
     id:9,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Water Jet Skiing",
+    image: './Pictures/jet_Skiing.jpg'
   },
   {
     id:10,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Bird Watching",
+    image: './Pictures/Bird_Watching.jpg'
   },
   {
     id:11,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Angling",
+    image: './Pictures/Angling.jpg'
   },
   {
     id:12,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Kashmir Great Lakes",
+    image: './Pictures/kashmir_Great_Lake.jpg'
   },
   {
     id:13,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Tarsar Marsar",
+    image: './Pictures/Tarsar_Lake.jpg'
   },
   {
     id:14,
-    name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    name:"Sonmes Yamhar",
+    image: './Pictures/Sonmas_Yamhar.jpg'
+  },
+  {
+    id:15,
+    name:"Tosa Maidan",
+    image: './Pictures/Tosa_Maidan.jpg'
+  },
+  {
+    id:16,
+    name:"Kounsarnag",
+    image: './Pictures/Kounsarnag.jpg'
+  },
+  {
+    id:17,
+    name:"Barfsar",
+    image: './Pictures/Barafsar.jpg'
+  },
+  {
+    id:18,
+    name:"Tulian Trek",
+    image: './Pictures/Tulian.jpg'
+  },
+  {
+    id:19,
+    name:"Nafran Valley",
+    image: './Pictures/Nafran_Valley.jpg'
+  },
+  {
+    id:20,
+    name:"Harmukh Valley",
+    image: './Pictures/Harmukh_Valley.jpg'
+  },
+  {
+    id:21,
+    name:"Mount Mahadev",
+    image: './Pictures/Mahadev.jpg'
   },
 ];
 export default Content;

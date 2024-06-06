@@ -1,21 +1,21 @@
 import React from "react";
-// import Card from "../CardsComponent/Card"; 
 import Content from "../CardsComponent/Content";
 import { Carousel } from '@mantine/carousel';
 import { Card, Image, Text, useMantineTheme } from '@mantine/core';
+import '@mantine/carousel/styles.css';
 import "./Adventure.css";
 function Adventure(){  
   const theme = useMantineTheme();
    return (
-      <div  style={{ padding: '20px' }}>
+      <div>
          <div className="ad_div">
-           <h1>Adventure Activities</h1>
+           <h1>ADVENTURE ACTIVITIES</h1>
         <div id="ad_inner_div">
         <Carousel  className="mantine-Carousel-root"
          loop
-          slideSize="33.3333%"
-          slideGap="md"
-          align="start"
+          slideSize="22%"
+          slideGap= "md"
+          align="center"
           slidesToScroll={1}
           breakpoints={[
           { maxWidth: 'md', slideSize: '50%' },
@@ -25,14 +25,15 @@ function Adventure(){
         
      {Content.slice(4, 11).map((item) => (
           <Carousel.Slide key={item.id}>
-            <Card shadow="sm" padding="lg">
+             <Card shadow="sm" padding="lg" id="card_d" >
               <Card.Section>
-                <Image src={item.image} alt={item.name} height={160} />
+                <Image className="pict" src={item.image} alt={item.name} height={160} />
               </Card.Section>
-              <Text weight={500} style={{ marginTop: theme.spacing.sm }}>
+              <Text className="card_txt" weight={500} style={{ marginTop: theme.spacing.sm }}>
                 {item.name}
               </Text>
             </Card>
+            
           </Carousel.Slide>
         ))}
        </Carousel>
