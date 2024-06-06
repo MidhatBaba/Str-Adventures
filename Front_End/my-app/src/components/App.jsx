@@ -9,6 +9,7 @@ function App() {
           <Nav /> 
           <Hero /> 
           <Destination />
+
           <Adventure />
         </div>
     );
