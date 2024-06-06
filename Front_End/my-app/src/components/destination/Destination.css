@@ -1,0 +1,22 @@
+.main_div{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid red;
+}
+.inner_div{
+    display: flex;
+    flex-direction: row;    
+    height: 300px;
+    gap: 20px;
+    justify-content: center;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+    padding-bottom: 20px;
+}

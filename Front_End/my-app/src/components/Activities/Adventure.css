@@ -1,0 +1,28 @@
+.ad_div{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid red;
+}
+#ad_inner_div{
+    display: flex;
+    flex-direction: row;    
+    height: 400px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    border:  2px solid black;
+
+}
+#tryme{
+    border: 2px solid green;
+    width: 600px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+    padding-bottom: 20px;
+}
