@@ -5,6 +5,7 @@ import Destination from "./Destination/Destination.jsx";
 import Adventure from "./Activities/Adventure.jsx";
 import Trek from "./Treks/trek.jsx";
 import AdventureWelcome from "./About/About.jsx";
+import Footer from "./Footer/Footer.jsx";
 function App() {
     return(
         <div>
@@ -14,6 +15,7 @@ function App() {
           <Trek />
           <Adventure />
           <AdventureWelcome />
+          <Footer />
         </div>
     );
 }

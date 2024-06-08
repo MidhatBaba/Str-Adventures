@@ -1,0 +1,43 @@
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .btn-link {
+    color: #f8f9fa;
+    display: block;
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-social {
+    margin-right: 0.5rem;
+    color: #f8f9fa;
+  }
+  
+  .btn-social:hover {
+    color: #d4d4d4;
+  }
+  
+  .footer .copyright {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #495057;
+  }
+  
+  .footer-menu a {
+    color: #f8f9fa;
+    margin-right: 1rem;
+  }
+  
+  .footer-menu a:hover {
+    text-decoration: underline;
+  }
+  

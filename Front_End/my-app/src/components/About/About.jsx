@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import { Container, Grid, GridCol, Title,  Button, Image } from '@mantine/core';
+import { Container, Grid, Title,  Button, Image } from '@mantine/core';
 import { useMantineTheme } from '@mantine/core';
 // import "../Activities/Adventure.css";
 import "./About.css";
@@ -19,9 +19,9 @@ function AdventureWelcome() {
     <div className="about">
         <h1 style={{textAlign:"center"}}>WHO WE ARE</h1>
     <Container className='tryme1'>
-      <Grid>
+      <Grid >
       {/* <div className='try'> */}
-        <GridCol lg={6} className='try' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <Grid.Col lg={6}  className='try' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <Title order={4} data-aos="fade-up" data-aos-delay="100">
             Welcome to Str Adventures, your trusted companion in the world of travel exploration! At Str Adventures, we're passionate about crafting unforgettable travel experiences that inspire, delight, and create cherished memories for our clients.
             <br /><br />
@@ -45,13 +45,13 @@ function AdventureWelcome() {
               </Button>
             </div>
           </div>
-        </GridCol>
+        </Grid.Col>
         {/* </div> */}
-        <GridCol lg={6} className="tryme2" data-aos="zoom-out" data-aos-delay="200">
+        <Grid.Col lg={6}  className="tryme2" data-aos="zoom-out" data-aos-delay="200">
         {/* <div className='tryme2'> */}
           <Image src= './Pictures/About_Us.jpg' alt="About Us" className="img-fluid" />
         {/* </div> */}
-        </GridCol>
+        </Grid.Col>
       </Grid>
     </Container>
     </div>

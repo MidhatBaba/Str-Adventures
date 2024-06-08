@@ -10,6 +10,7 @@
     text-align: left;
     flex-direction: column;
     justify-content: center;
+    order: 1;
     /* grid-column-start: 1; */
 }
 .tryme2{
@@ -19,4 +20,5 @@
     text-align: right;
     grid-column-start: 2;
     align-items: center;
+    order: 2;
 }
