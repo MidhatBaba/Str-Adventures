@@ -13,10 +13,10 @@ function Trek(){
          <div id="ad_inner_div">
          <Carousel  className="mantine-Carousel-root"
           loop
-           slideSize="22%"
+           slideSize="25%"
            slideGap= "md"
            align="center"
-           slidesToScroll={1}
+           slidesToScroll={2}
            breakpoints={[
            { maxWidth: 'md', slideSize: '50%' },
            { maxWidth: 'sm', slideSize: '100%' },

@@ -4,6 +4,7 @@ import { Carousel } from '@mantine/carousel';
 import { Card, Image, Text, useMantineTheme } from '@mantine/core';
 import '@mantine/carousel/styles.css';
 import "./Adventure.css";
+
 function Adventure(){  
   const theme = useMantineTheme();
    return (
@@ -13,10 +14,10 @@ function Adventure(){
         <div id="ad_inner_div">
         <Carousel  className="mantine-Carousel-root"
          loop
-          slideSize="22%"
+          slideSize="25%"
           slideGap= "md"
           align="center"
-          slidesToScroll={1}
+          slidesToScroll={2}
           breakpoints={[
           { maxWidth: 'md', slideSize: '50%' },
           { maxWidth: 'sm', slideSize: '100%' },
