@@ -1,80 +1,112 @@
 import React from "react";
 import "./Nav.css";
 import img from "./logo.jpeg";
-function Nav(){
-    return(
-        <div className="main">
-                {/* <a className="a_whatsapp" href="#">
-                  <i class="fa-brands fa-whatsapp"></i>
-                </a> */}
-            <div class="container-fluid one">
-              <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid">
-                    <div className="end">
-                     <img className="logo" src={img}/>
-                     <div className="inner">
-                    <a class="navbar-brand naam" href="#">Str  Adventure</a>
-                    <h6 className="sky">Sky, Terrene, River</h6>
-                    </div>
-               </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                       <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                      <ul class="navbar-nav ms-auto">
-                       <div class="nav-item dropdown">
-                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Adventure Tourism</a>
-                             <div class="dropdown-menu m-0">
-                               {/* <a href="#" class="dropdown-item">Treks</a> */}
-
-                               <div class="nav-item dropdown">
-                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Treks</a>
-                                     <div class="dropdown-menu m-0">
-                                        <a href="#" class="dropdown-item">Kashmir Great Lakes</a>
-                                        <a href="#" class="dropdown-item">Tarsar Marsar</a>
-                                        <a href="#" class="dropdown-item">Sonmes Yamhar</a>
-                                        <a href="#" class="dropdown-item">Tosa Maidan</a>
-                                        <a href="#" class="dropdown-item">Kounsarnag</a>
-                                        <a href="#" class="dropdown-item">Barf Sar</a>
-                                        <a href="#" class="dropdown-item">Tulian Trek</a>
-                                        <a href="#" class="dropdown-item">Harnag Trek</a>
-                                        <a href="#" class="dropdown-item">Harmukh Valley</a>
-                                        <a href="#" class="dropdown-item">Mount Mahadev</a>
-                                      </div>
-                                  </div>
-                              <a href="#" class="dropdown-item">Summits</a>
-                               <a href="#" class="dropdown-item"> Day Treks</a>
-                             </div>
-                       </div>
-                       <div class="nav-item dropdown">
-                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Leisure</a>
-                             <div class="dropdown-menu m-0">
-                               <a href="#" class="dropdown-item">Kashmir Tour Packages</a>
-                               <a href="#" class="dropdown-item">Kashmir OffBeat Packages</a>
-                             </div>
-                       </div>
-                            <div class="nav-item dropdown">
-                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Activities</a>
-                             <div class="dropdown-menu m-0">
-                               <a href="#" class="dropdown-item">Skiing</a>
-                               <a href="#" class="dropdown-item">Rafting</a>
-                               <a href="#" class="dropdown-item"> Paragliding</a>
-                             </div>
-                       </div>
-                       <div class="nav-item dropdown">
-                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Register</a>
-                             <div class="dropdown-menu m-0">
-                               <a href="#" class="dropdown-item">Login</a>
-                               <a href="#" class="dropdown-item">Sign Up</a>
-                             </div>
-                       </div>
-                   </ul>
-                    </div>
+import "./Tryme.css";
+function Nav() {
+  return (
+    <div>
+      <div className="container-fluid one">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <div className="container-fluid">
+            <div className="d-flex align-items-center">
+              <img className="logo" src={img} alt="Logo" />
+              <div className="inner ms-2">
+                <a className="navbar-brand naam" href="#">
+                  Str Adventure
+                </a>
+                <h6 className="sky">Sky, Terrene, River</h6>
               </div>
-              </nav>
+            </div>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+             {/*********************ADVENTURE TOURISM *****************/}
+                <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle" href="#" id="adventureTourismDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Adventure Tourism</a>
+                <ul className="dropdown-menu" aria-labelledby="adventureTourismDropdown">
+                    <li className="dropdown-submenu">
+                      <a className="dropdown-item dropdown-toggle" href="#" id="treksDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Treks</a>
+                      <ul className="dropdown-menu" aria-labelledby="treksDropdown">
+                        <li><a className="dropdown-item" href="#">Kashmir Great Lakes</a></li>
+                        <li><a className="dropdown-item" href="#">Tarsar Marsar</a></li>
+                        <li><a className="dropdown-item" href="#">Sonmes Yamhar</a></li>
+                        <li><a className="dropdown-item" href="#">Tosa Maidan</a></li>
+                        <li><a className="dropdown-item" href="#">Kounsarnag</a></li>
+                        <li><a className="dropdown-item" href="#">Barf Sar</a></li>
+                        <li><a className="dropdown-item" href="#">Tulian Trek</a></li>
+                        <li><a className="dropdown-item" href="#">Harnag Trek</a></li>
+                        <li><a className="dropdown-item" href="#">Harmukh Valley</a></li>
+                        <li><a className="dropdown-item" href="#">Mount Mahadev</a></li>
+                      </ul>
+                    </li>
+                       <li><a className="dropdown-item" href="#">Summits</a></li>
+                       <li><a className="dropdown-item" href="#">Day Treks</a></li>
+                </ul>
+                </li>
+
+                {/*********************LEISURE *********************/}
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" href="#" id="leisureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Leisure</a>
+                <ul className="dropdown-menu" aria-labelledby="leisureDropdown">
+                      <li className="dropdown-submenu">
+                      <a className="dropdown-item dropdown-toggle" href="#" id="treksDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kashmir Tour Packages</a>
+                      <ul className="dropdown-menu " id="cc" aria-labelledby="treksDropdown">
+                         <li><a className="dropdown-item" href="#">Srinagar</a></li>
+                         <li><a className="dropdown-item" href="#">Pahalgam</a></li>
+                         <li><a className="dropdown-item" href="#">Gulmarg</a></li>
+                         <li><a className="dropdown-item" href="#">Sonamarg</a></li>
+                      </ul>
+                      </li>
+                      <li><a className="dropdown-item" href="#">Kashmir OffBeat Packages</a></li>
+                  </ul>
+                </li>
+                {/****************************ACTIVITIES ************************/}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="activitiesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Activities
+                  </a>
+                  <ul className="dropdown-menu" aria-labelledby="activitiesDropdown">
+                    <li><a className="dropdown-item" href="#">Skiing</a></li>
+                    <li><a className="dropdown-item" href="#">Rafting</a></li>
+                    <li><a className="dropdown-item" href="#">Paragliding</a></li>
+                  </ul>
+                </li>
+                {/****************************REGISTER ************************************/}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="registerDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Register
+                  </a>
+                  <ul className="dropdown-menu" aria-labelledby="registerDropdown">
+                    <li><a className="dropdown-item" href="#">Login</a></li>
+                    <li><a className="dropdown-item" href="#">Sign Up</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      
-    );
+        </nav>
+      </div>
+    </div>
+  );
 }
+
 export default Nav;

@@ -4,21 +4,17 @@ import Hero from "./hero/hero.jsx";
 import Destination from "./Destination/Destination.jsx";
 import Adventure from "./Activities/Adventure.jsx";
 import Trek from "./Treks/trek.jsx";
-import AdventureWelcome from "./About/About.jsx";
 import Footer from "./Footer/Footer.jsx";
-// import Tryme from "./Nav/tryme.jsx";
-import Tryme from "./Nav/tryme.jsx";
+import About_Us from "./About/About_Us.jsx";
 function App() {
     return(
         <div>
-          <Tryme />
-          {/* <Tryme /> */}
-          {/* <Nav /> */}
+          <Nav />
           <Hero /> 
           <Destination />
           <Trek />
           <Adventure />
-          <AdventureWelcome />
+          <About_Us />
           <Footer />
         </div>
     );

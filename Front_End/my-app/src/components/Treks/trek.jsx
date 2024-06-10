@@ -16,7 +16,7 @@ function Trek(){
            slideSize="25%"
            slideGap= "md"
            align="center"
-           slidesToScroll={2}
+           slidesToScroll={1}
            breakpoints={[
            { maxWidth: 'md', slideSize: '50%' },
            { maxWidth: 'sm', slideSize: '100%' },

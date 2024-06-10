@@ -4,16 +4,24 @@
   
   .dropdown-submenu > .dropdown-menu {
     top: 0;
-    left: 100%;
+    left:-115%;
     margin-top: -1px;
   }
   
+  #cc{
+    top: 100%;
+    left:-60%;
+    margin-top: -1px;
+  }
+
+
+
   .dropdown-submenu:hover > .dropdown-menu {
     display: block;
   }
   
   .dropdown-submenu > a::after {
-    content: ">";
+    content: "";
     float: right;
     margin-left: 5px;
   }
