@@ -8,7 +8,8 @@ function Footer() {
     <div className="footer bg-dark text-light pt-5 mt-5">
       <Container className="py-5">
         <Grid gutter="lg" className="g-5">
-          <Grid.Col lg={3} md={6}>
+        {/* <div className="zi"> */}
+          <Grid.Col lg={6} md={12}>
             <Text weight={700} size="lg" className="text-white mb-3">Company</Text>
             <Button component="a" variant="subtle" className="btn-link" href="">About Us</Button>
             <Button component="a" variant="subtle" className="btn-link" href="">Contact Us</Button>
@@ -16,7 +17,9 @@ function Footer() {
             <Button component="a" variant="subtle" className="btn-link" href="">Terms & Conditions</Button>
             <Button component="a" variant="subtle" className="btn-link" href="">FAQs & Help</Button>
           </Grid.Col>
-          <Grid.Col lg={3} md={6}>
+          {/* </div> */}
+          {/* <div className="z"> */}
+          <Grid.Col lg={6} md={12}>
             <Text weight={700} size="lg" className="text-white mb-3">Contact</Text>
             <Text className="mb-2"><ThemeIcon radius="xl" variant="light" className="me-3"><IconMapPin /></ThemeIcon>Ellahi Bagh Srinagar</Text>
             <Text className="mb-2"><ThemeIcon radius="xl" variant="light" className="me-3"><IconPhone /></ThemeIcon>+919149778587</Text>
@@ -28,6 +31,7 @@ function Footer() {
               <Button component="a" variant="outline" className="btn-social" href=""><IconBrandLinkedin /></Button>
             </div>
           </Grid.Col>
+          {/* </div> */}
         </Grid>
       </Container>
       <Container>

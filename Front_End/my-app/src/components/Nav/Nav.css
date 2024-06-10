@@ -2,7 +2,6 @@
     /* background-color: #aeb6ff ;  */
     position: fixed;
     z-index: 1;
-
 }
   a:hover{
     color: rgb(114, 114, 114);
@@ -41,12 +40,6 @@
     font-size: 20px;
     font-weight: 400;
     color:#0F7C6C;
-        font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
 
 }
-/* .a_whatsapp{
-    z-index: 1;
-}
-.main{
-    z-index: 0;
-} */

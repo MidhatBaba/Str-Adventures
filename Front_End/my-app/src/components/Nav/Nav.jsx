@@ -21,24 +21,40 @@ function Nav(){
                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                       <ul class="navbar-nav ms-auto">
+                      <ul class="navbar-nav ms-auto">
                        <div class="nav-item dropdown">
-                         <a href="#zi" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Adventure Tourism</a>
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Adventure Tourism</a>
                              <div class="dropdown-menu m-0">
-                               <a href="#" class="dropdown-item">Treks</a>
-                               <a href="#" class="dropdown-item">Summits</a>
+                               {/* <a href="#" class="dropdown-item">Treks</a> */}
+
+                               <div class="nav-item dropdown">
+                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Treks</a>
+                                     <div class="dropdown-menu m-0">
+                                        <a href="#" class="dropdown-item">Kashmir Great Lakes</a>
+                                        <a href="#" class="dropdown-item">Tarsar Marsar</a>
+                                        <a href="#" class="dropdown-item">Sonmes Yamhar</a>
+                                        <a href="#" class="dropdown-item">Tosa Maidan</a>
+                                        <a href="#" class="dropdown-item">Kounsarnag</a>
+                                        <a href="#" class="dropdown-item">Barf Sar</a>
+                                        <a href="#" class="dropdown-item">Tulian Trek</a>
+                                        <a href="#" class="dropdown-item">Harnag Trek</a>
+                                        <a href="#" class="dropdown-item">Harmukh Valley</a>
+                                        <a href="#" class="dropdown-item">Mount Mahadev</a>
+                                      </div>
+                                  </div>
+                              <a href="#" class="dropdown-item">Summits</a>
                                <a href="#" class="dropdown-item"> Day Treks</a>
                              </div>
                        </div>
                        <div class="nav-item dropdown">
-                         <a href="#ab" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Leisure</a>
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Leisure</a>
                              <div class="dropdown-menu m-0">
                                <a href="#" class="dropdown-item">Kashmir Tour Packages</a>
                                <a href="#" class="dropdown-item">Kashmir OffBeat Packages</a>
                              </div>
                        </div>
                             <div class="nav-item dropdown">
-                         <a href="#ser" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Activities</a>
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Activities</a>
                              <div class="dropdown-menu m-0">
                                <a href="#" class="dropdown-item">Skiing</a>
                                <a href="#" class="dropdown-item">Rafting</a>
@@ -46,13 +62,13 @@ function Nav(){
                              </div>
                        </div>
                        <div class="nav-item dropdown">
-                         <a href="#ser" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Register</a>
+                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Register</a>
                              <div class="dropdown-menu m-0">
                                <a href="#" class="dropdown-item">Login</a>
                                <a href="#" class="dropdown-item">Sign Up</a>
                              </div>
                        </div>
-                        </ul>
+                   </ul>
                     </div>
               </div>
               </nav>

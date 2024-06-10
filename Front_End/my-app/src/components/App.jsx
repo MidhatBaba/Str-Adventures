@@ -6,10 +6,14 @@ import Adventure from "./Activities/Adventure.jsx";
 import Trek from "./Treks/trek.jsx";
 import AdventureWelcome from "./About/About.jsx";
 import Footer from "./Footer/Footer.jsx";
+// import Tryme from "./Nav/tryme.jsx";
+import Tryme from "./Nav/tryme.jsx";
 function App() {
     return(
         <div>
-          <Nav /> 
+          <Tryme />
+          {/* <Tryme /> */}
+          {/* <Nav /> */}
           <Hero /> 
           <Destination />
           <Trek />
