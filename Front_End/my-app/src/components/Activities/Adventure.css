@@ -1,29 +1,40 @@
 .ad_div{
     text-align: center;
     width: 100%;
+    /* border: 2px solid black; */
 }
 #ad_inner_div{
     justify-content: center;
     align-items: center;
-    margin: 10px 150px 50px 150px;
+    margin: 10px 140px 50px 140px;
     /* border:  2px solid red; */
 }
 .mantine-Carousel-root{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 h1{
     font-size: 30px;
     font-weight: 400;
     padding-bottom: 20px;
 }
+#next{
+    border-radius: 30px;
+    /* padding: 0px 20px; */
+}
+#previous{
+    border-radius: 30px;
+}
 #card_d{
+    margin-left: 12px;
     height: 270px;
     width: 220px;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
+    /* border: 2px solid green; */
     box-shadow: 0 4px 8px rgba(191, 174, 174, 0.1);
     transition: transform 0.2s;
 }

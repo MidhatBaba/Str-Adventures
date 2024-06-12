@@ -5,10 +5,11 @@ import "./Card.css";
 function Card(props){
     return(
         <div>
-            <div className="card_div">
+              <div className="card_div">
                  <h1 className="card_text">{props.name}</h1>
                  <img className="pic" src={props.img}/> 
-            </div>
+              </div>
+        
         </div>
     );
 }

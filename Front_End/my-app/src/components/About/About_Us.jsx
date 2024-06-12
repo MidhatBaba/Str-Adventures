@@ -15,7 +15,7 @@ function About_Us(){
       //     }}
       //  >
         <div>
-           <h1 style={{textAlign:"center"}}>WHO WE ARE</h1>
+           <h1 style={{textAlign:"center"}}>WHO CHOOSE US</h1>
         <div className="about">
            <div className="try">      
            {/* <Text

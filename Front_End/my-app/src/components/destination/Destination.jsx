@@ -13,7 +13,7 @@ function Destination(){
     return(
         <div>
             <div className="main_div">
-            <h1>DESTINATIONS</h1>
+            <h1> TOP DESTINATIONS</h1>
                 <div className="inner_div">
                    {selectCards.map(createCard)}
                </div>
