@@ -6,7 +6,7 @@
 #ad_inner_div{
     justify-content: center;
     align-items: center;
-    margin: 10px 140px 50px 140px;
+    margin: 10px 180px 50px 180px;
     /* border:  2px solid red; */
 }
 .mantine-Carousel-root{
@@ -43,7 +43,7 @@ h1{
 }
 .card_txt{
     position: absolute;
-    top: 95%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.5);/* Semi-transparent white background */
