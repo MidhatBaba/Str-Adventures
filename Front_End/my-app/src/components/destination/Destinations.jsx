@@ -3,7 +3,7 @@ import Card from "../CardsComponent/Card";
 import Content from "../CardsComponent/Content";
 import { Link } from "react-router-dom";
 import "./Destination.css";
-function Destination(){
+function Destinations(){
     const selectCards= Content.slice(0,4);
     function createCard(cont){
         return <Card 
@@ -26,4 +26,4 @@ function Destination(){
         </div>
     );
 }
-export default Destination;
+export default Destinations;

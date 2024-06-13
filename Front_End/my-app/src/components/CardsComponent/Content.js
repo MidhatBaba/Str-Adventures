@@ -2,7 +2,7 @@ const Content = [
   {
     id:1,
     name:"KASHMIR VALLEY",
-    url: '/destination/kashmir-valley',
+    url: './Destination/kashmir-valley',
     image: './Pictures/Kashmir_Valley.png'
   },
   {

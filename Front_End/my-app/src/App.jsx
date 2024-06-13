@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Nav from "./components/Nav/Nav.jsx";
 import Hero from "./components/hero/hero.jsx";
-import Destination from "./components/Destination/Destination.jsx";
+import Destinations from "./components/Destination/Destinations.jsx";
 import Adventure from "./components/Activities/Adventure.jsx";
 import Trek from "./components/Treks/trek.jsx";
 import Footer from "./components/Footer/Footer.jsx";
@@ -14,7 +14,7 @@ function App() {
         <div>
           <Nav />
           <Hero /> 
-          <Destination />
+          <Destinations />
           <Trek />
           <Adventure />
           <AboutUs />
