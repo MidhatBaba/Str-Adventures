@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Button, Image} from '@mantine/core';
-function About_Us(){
+function AboutUs(){
     return(
       // <MantineProvider
       // theme={{
@@ -60,4 +60,4 @@ function About_Us(){
         // </MantineProvider>
     );
 }
-export default About_Us;
+export default AboutUs;

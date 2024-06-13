@@ -1,7 +1,7 @@
 import React from "react";
 import "./Content.js";
 import "./Card.css";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 // Called every time when each card is created
 function Card(props){
     return(
