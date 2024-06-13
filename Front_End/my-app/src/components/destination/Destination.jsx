@@ -6,6 +6,7 @@ function Destination(){
     const selectCards= Content.slice(0,4);
     function createCard(cont){
         return <Card 
+        url={cont?.url}
         key={cont.id}
         img={cont.image}
         name={cont.name}/>

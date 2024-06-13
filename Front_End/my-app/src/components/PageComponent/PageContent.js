@@ -1,9 +1,9 @@
-const PageContent=[
+const PageContent = [
   {
     id: 1,
     url: 'kashmir-valley',
-    about: "About KASHMIR VALLEY",
-    text:"Famous for its enthralling Dal Lake, Srinagar is an enchanting city of Kashmir blessed with several attractions. The city is known as the summer capital of Jammu & Kashmir, where tourists come from all over the world. A shikara ride on pristine Dal Lake, luxurious houseboats, snow-capped mountains, beautiful handicrafts and lovely gardens are the popular attractions of Srinagar.Pahalgam is another amazing destination we will cover under the Kashmir tour itinerary for 3N 4D. This valley is famed as the ‘Valley of Shepherds’. It is a great destination to experience the unparalleled charm of mother nature beautifully reflected in snow-capped mountains, gorgeous landscapes, pleasant weather, fresh air and adventure activities such as pony rides, trekking and river rafting. The next destination on your Kashmir Tour for 3N 4D is the enchanting Gulmarg Valley, known as ‘the Meadow of Flowers’. This valley is a world-famous skiing destination, a great place for trekking and a heavenly destination for honeymooners. You must try out its breathtaking Gondola Ride, offering the sheer natural beauty of snow-covered mountains and an abundance of adventure.",
+    title: "About KASHMIR VALLEY",
+    description:"Famous for its enthralling Dal Lake, Srinagar is an enchanting city of Kashmir blessed with several attractions. The city is known as the summer capital of Jammu & Kashmir, where tourists come from all over the world. A shikara ride on pristine Dal Lake, luxurious houseboats, snow-capped mountains, beautiful handicrafts and lovely gardens are the popular attractions of Srinagar.Pahalgam is another amazing destination we will cover under the Kashmir tour itinerary for 3N 4D. This valley is famed as the ‘Valley of Shepherds’. It is a great destination to experience the unparalleled charm of mother nature beautifully reflected in snow-capped mountains, gorgeous landscapes, pleasant weather, fresh air and adventure activities such as pony rides, trekking and river rafting. The next destination on your Kashmir Tour for 3N 4D is the enchanting Gulmarg Valley, known as ‘the Meadow of Flowers’. This valley is a world-famous skiing destination, a great place for trekking and a heavenly destination for honeymooners. You must try out its breathtaking Gondola Ride, offering the sheer natural beauty of snow-covered mountains and an abundance of adventure.",
     itinerary: "Itinerary",
     plan: [
       {
