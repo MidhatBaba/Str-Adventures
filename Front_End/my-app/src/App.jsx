@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router,Routes, Route,Outlet } from "react-router-dom";
+import { BrowserRouter as Router,Switch, Route, Link } from "react-router-dom";
 import Nav from "./components/Nav/Nav.jsx";
 import Hero from "./components/hero/hero.jsx";
 import Destination from "./components/Destination/Destination.jsx";
@@ -7,38 +7,32 @@ import Adventure from "./components/Activities/Adventure.jsx";
 import Trek from "./components/Treks/trek.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import About_Us from "./components/About/About_Us.jsx";
-import Campers from "./components/Campers/Campers.jsx";
 import Tryme from "./components/PageComponent/tryme.jsx";
 function App() {
     return(
-      <div>
-      {/* <Router> */}
-        {/* <Routes>
-          <Route exact path="/" element={<h1>Kv</h1>} />
-          <Route exact path="Tryme" element={<Tryme />} />
-        </Routes> */}
-        
+      
+      <Router>
+        <div>
           <Nav />
           <Hero /> 
-          <Destination />
-            {/* <ul>
+          <Destination >
+            <ul>
               <li>
                 <Link to="/Tryme">tryme</Link>
               </li>
             </ul>
-          </Destination> */}
-          {/* <Switch>
+          </Destination>
+          <Switch>
             <Route path="/Tryme"> <Tryme />  </Route>
-            </Switch>             */}
+            </Switch>            
         
           <Trek />
           <Adventure />
           <About_Us />
-          <Campers/>
           <Footer />
           {/* <Tryme /> */}
-        {/* </Router> */}
         </div>
+        </Router>
     );
 }
 export default App;
