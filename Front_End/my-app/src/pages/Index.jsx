@@ -4,11 +4,10 @@ import Nav from "../components/Nav/Nav.jsx";
 import Hero from "../components/hero/hero.jsx";
 import Destination from "../components/Destination/Destinations.jsx";
 import Adventure from "../components/Activities/Adventure.jsx";
-import Trek from "./components/Treks/trek.jsx";
+import Trek from "../components/Treks/trek.jsx";
 import Footer from "../components/Footer/Footer.jsx";
 import AboutUs from "../components/About/AboutUs.jsx";
-import Tryme from "../components/PageComponent/tryme.jsx";
-
+import FeedbackSection from "../components/Campers/Campers.jsx";
 const Index = () => {
   return (
     <div>
@@ -18,9 +17,10 @@ const Index = () => {
       <Trek />
       <Adventure />
       <AboutUs />
-    <Footer />
+      <FeedbackSection />
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default Index;

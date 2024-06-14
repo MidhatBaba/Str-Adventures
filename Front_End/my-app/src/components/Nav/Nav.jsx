@@ -2,6 +2,7 @@ import React from "react";
 import "./Nav.css";
 import img from "./logo.jpeg";
 import "./Tryme.css";
+import { Button } from "@mantine/core";
 function Nav() {
   return (
     <div>
@@ -141,6 +142,7 @@ function Nav() {
                     <li><a className="dropdown-item" href="#">Sign Up</a></li>
                   </ul>
                 </li>
+                <li><Button>BOOK NOW</Button></li>
               </ul>
             </div>
           </div>
