@@ -2,23 +2,26 @@ const Content = [
   {
     id:1,
     name:"KASHMIR VALLEY",
-    url: './Destination/kashmir-valley',
-    image: './Pictures/Kashmir_Valley.png'
+    image: './Pictures/Kashmir_Valley.png',
+    url: '/destination/kashmir-valley'
   },
   {
     id:2,
     name:"GUREZ VALLEY",
-    image: './Pictures/Gurez_Valley.jpg'
+    image: './Pictures/Gurez_Valley.jpg',
+    url:'/destination/gurez-valley'
   },
   {
     id:3,
     name:"WARWAN VALLEY",
-    image: './Pictures/Warwan_Valley.png'
+    image: './Pictures/Warwan_Valley.png',
+    url: '/destination/warwan-valley'
   },
   {
     id:4,
     name:"BUNGUS VALLEY",
-    image: './Pictures/Bungus_Valley.jpg'
+    image: './Pictures/Bungus_Valley.jpg',
+    url: '/destination/bungus-valley'
   },
   {
     id:5,

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import Nav from "../components/Nav/Nav.jsx";
 import Hero from "../components/hero/hero.jsx";
 import Destination from "../components/Destination/Destinations.jsx";
